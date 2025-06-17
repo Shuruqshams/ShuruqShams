@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shuruq Baghdad</title>
+  <link rel="icon" href="WebLogo.jpg" type="image/x-icon" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: yellow;
+      background-color: #1a1a1a;
+    }
+
+    header {
+      background: #333333;
+      color: yellow;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #444444;
+    }
+
+    nav a {
+      color: yellow;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #666666;
+    }
+
+    .hero {
+      background-color: #2a2a2a;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 30%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: yellow;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #444444;
+      color: yellow;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .hero img {
+        width: 80%;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="WebLogo.jpg" alt="Shuruq Logo" class="logo" />
+    <h1>Shuruq Shams Baghdad</h1>
+    <p>Renewable Energy And Solar System</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <img src="OIP.jpeg" alt="Image 1" />
+    <img src="1111.png" alt="Image 2" />
+    <img src="slp56.png" alt="Image 3" />
+  </section>
+
+  <div class="container">
+    <section class="section" id="about">
+      <h2>About Us</h2>
+      <p>
+        We are a dedicated team providing outstanding services to our clients.
+        Our focus is on delivering results and creating long-term partnerships.
+      </p>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Installation Of System</li>
+        <li>Design</li>
+        <li>Visibility Study</li>
+        <li>Operation And Maintenance</li>
+        <li>System Intigration</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Us</h2>
+      <p>Address 1: Baghdad-Al-Harthiya M.213 Z.14 D.38</p>
+      <p>Address 2: Sulaymaniyah , Salm Str. , Alan Building opposite to Suly Museum.</p>
+      <p>Phone Number: +9647748555252 - +9647738555252</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Shuruq Shams Baghdad. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
